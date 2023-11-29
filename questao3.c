@@ -1,14 +1,14 @@
 # include < stdio .h >
 
 int main ( ) {
-//N„o foi declarado a vari·vel i
-int N_ant , N_prox , N , N_atual//Est· faltando o ";"
+//N√£o foi declarado a vari√°vel i
+int N_ant , N_prox , N , N_atual//Est√° faltando o ";"
 N_ant = N_atual =1;
-for( i =1 ,i <= N , i ++) {//erro no laÁo de repetiÁ„o
+for( i =1 ,i <= N , i ++) {//erro no la√ßo de repeti√ß√£o
 N_prox = N_ant + N_atual ;
 N_ant = N_atual ;
 N_atual = N_prox ;
 printf ("Fim do laco !\n") ;
-return//est· faltando o 0
+return//est√° faltando o 0
 }
-
+//A fun√ß√£o main n√£o foi fechada, faltou o "}"
