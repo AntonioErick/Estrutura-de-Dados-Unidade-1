@@ -47,14 +47,14 @@ void imprimir (struct aluno *estudante){
 }
 
 void imprimir2 (struct professor *docente){
-	printf ("Nome: %s\n", professor->nome);
-	printf ("Idade: %d\n", professor->idade);
-	printf ("Matricula: %d\n", professor->matricula);
-	printf ("Email: %s\n", professor->email);
+	printf ("Nome: %s\n", docente->nome);
+	printf ("Idade: %d\n", docente->idade);
+	printf ("Matricula: %d\n", docente->matricula);
+	printf ("Email: %s\n", docente->email);
 }
 
 
-//ALOCA«√O DIN¬MICA DE STRUCT POIAS A VAR¡VEL AGORA … UM PONTEIRO
+//ALOCA√á√ÉO DIN√ÇMICA DE STRUCT POIAS A VAR√ÅVEL AGORA √â UM PONTEIRO
 int main (){
 	struct aluno *estudante = (struct aluno *) malloc(sizeof(struct aluno));
 	if (estudante == NULL){
