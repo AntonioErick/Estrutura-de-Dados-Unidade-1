@@ -40,7 +40,7 @@ int main (){
 	scanf (" %i", &numerodepessoas);
 	
 	for (int i = 0; i < numerodepessoas; i++){
-		printf ("Pessoa %i°\n", i + 1);
+		printf ("Pessoa %iÂ°\n", i + 1);
 		preencher (dados);	
 	}
 	
