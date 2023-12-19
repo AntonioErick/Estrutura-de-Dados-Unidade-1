@@ -16,10 +16,10 @@ int main (){
 	
 	for (i = 0; i < N; ++i){
 		
-		printf ("Enter the persons %d gender (1 - Man | 2 - Woman): ", i + 1);//o "i + 1" faz com que o contador não comece do zero
+		printf ("Enter the persons %d gender (1 - Man | 2 - Woman): ", i + 1);//o "i + 1" faz com que o contador nÃ£o comece do zero
 		scanf (" %i", &sexo[i]);
 		printf ("\n");
-		printf ("Did person %d like the product? (1 - Yes | 2 - No): ", i + 1); //os espaços antes dos "%c" é para n quebrar a linha
+		printf ("Did person %d like the product? (1 - Yes | 2 - No): ", i + 1); //os espaÃ§os antes dos "%c" Ã© para n quebrar a linha
 		scanf (" %i", &opiniao[i]);
 		printf ("\n");	
 	}
