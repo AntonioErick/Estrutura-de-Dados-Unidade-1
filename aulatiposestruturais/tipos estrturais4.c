@@ -24,7 +24,7 @@ void imprimir (struct aluno *estudante){
 }
 
 
-//ALOCA«√O DIN¬MICA DE STRUCT POIAS A VAR¡VEL AGORA … UM PONTEIRO
+//ALOCA√á√ÉO DIN√ÇMICA DE STRUCT POIAS A VAR√ÅVEL AGORA √â UM PONTEIRO
 int main (){
 	struct aluno *estudante = (struct aluno *) malloc(sizeof(struct aluno));
 	if (estudante == NULL){
