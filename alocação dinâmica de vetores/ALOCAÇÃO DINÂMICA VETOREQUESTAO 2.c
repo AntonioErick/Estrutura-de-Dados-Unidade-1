@@ -44,15 +44,15 @@ int main()
     }
     for (i = 0; i < n; i++)
     {
-        printf("Insira a resposta da %dº questao: ", i + 1);
+        printf("Insira a resposta da %dÂº questao: ", i + 1);
         scanf(" %c", &gabarito[i]);
     }
     for (i = 0; i < ALUNOS; i++)
     {
-        printf("Insira as respostas do %dº aluno\n", i + 1);
+        printf("Insira as respostas do %dÂº aluno\n", i + 1);
         for (j = 0; j < n; j++)
         {
-            printf("Insira a resposta da %dº questao: ", j + 1);
+            printf("Insira a resposta da %dÂº questao: ", j + 1);
             scanf(" %c", &alunos[i][j]);
         }
     }
