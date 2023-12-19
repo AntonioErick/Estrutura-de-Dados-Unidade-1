@@ -42,7 +42,7 @@ int main (){
 	scanf (" %i", &numerofuncionarios);
 	
 	for (int i = 0; i < numerofuncionarios; i++){
-		printf ("Funcionario %i°\n", i + 1);
+		printf ("Funcionario %iÂ°\n", i + 1);
 		preencher (funcionario);	
 	}
 	
